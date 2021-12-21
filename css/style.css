@@ -1,0 +1,87 @@
+body{
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#mainNavbar{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+#mainNavbar .navbar-brand{
+    margin-left: 5%;
+    padding: 22px 80px;
+}
+
+#mainNavbar .nav-link{
+    color:   #1338be;
+    margin: 10px 30px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+#mainNavbar .active1{
+    color:white;
+    background:  #1338be;
+}
+
+#mainNavbar .nav-link:hover{
+    color:white;
+    background:  #1338be;
+    transition: 0.7s ease;
+}
+
+#navbar-nav{
+    width: 30%;
+}
+
+.navbar .scrolled{
+    background: rgb(194, 224, 228);
+    transition: background 500ms;
+}
+
+#imgSection .img-fluid{
+    background: cover;
+    width: 100%;
+    height: 500px;
+    filter: brightness(80%);
+}
+
+.lead{
+    color:  #1338be;
+    font-weight: normal;
+}
+
+.container img{
+    filter: brightness(90%);
+}
+
+.container ul li{
+    color:  #1338be;
+}
+
+h3{
+    color:  #1338be;
+    padding: 18px 20px;
+}
+
+.content{
+    margin: 50px;
+}
+
+.fancyLine1 {
+    border-bottom: 10px solid #1338be;
+    border-radius: 15px;
+    width: 50%;
+    margin-top: 0.3rem;
+    margin-left: 20px;
+}
+
+.fancyLine2 {
+    border-bottom: 15px solid #1338be;
+    border-radius: 15px;
+    width: 50%;
+    margin-top: 1.3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
